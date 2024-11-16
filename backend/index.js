@@ -20,7 +20,7 @@ if (!process.env.BREVO_API_KEY) {
 const brevoClient = new SibApiV3Sdk.TransactionalEmailsApi();
 
 app.use(cors({
-  origin: 'https://perfect-brew-e-book.web.app/',
+  origin: 'https://perfect-brew-e-book.web.app',
   optionsSuccessStatus: 200,
 }));
 app.use(express.json());
